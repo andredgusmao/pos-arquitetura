@@ -1,0 +1,15 @@
+swarm:
+  http:
+    port: 8881	
+  datasources:
+    jdbc-drivers:
+      com.mysql:
+        driver-class-name: com.mysql.jdbc.Driver
+        xa-datasource-class-name: com.mysql.jdbc.jdbc2.optional.MysqlXADataSource
+        driver-module-name: com.mysql  
+    data-sources:
+      CursosDS:
+        driver-name: com.mysql
+        connection-url: jdbc:mysql://localhost:3306/uniarq.cursos?autoReconnect=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+        user-name: uniarq
+        password: uniarq
