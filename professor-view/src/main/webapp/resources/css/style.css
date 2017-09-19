@@ -1,0 +1,286 @@
+body {
+    background: #F7F7F7;
+    font-family: 'Droid Sans', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+}
+
+.app {
+    background: #F7F7F7;
+    color: #444;
+}
+
+.navegacao-navbar {
+    background: #FFF;
+}
+
+.navegacao-menu-botao {
+    margin-left: 10px;
+    z-index: 10;
+}
+
+.navegacao-icone {
+    padding: 8px 10px;
+}
+
+.navbar-brand {
+    height: 80px;
+}
+
+.navbar-toggle {
+    border: none;
+}
+.navbar-toggle > .icon-bar {
+    color: #333;
+}
+
+.navbar-default .navbar-nav>li>a {
+    padding: 30px 15px;
+}
+
+.navegacao-icone-mobile {
+    justify-content: center;
+}
+
+.navegacao-icone-texto {
+    padding: 11px;
+    display: inline-block;
+}
+
+.navegacao-icone-img {
+    height: 60px;
+}
+
+.navegacao-menu-item:hover {
+    background-color: #4c5897;
+}
+
+.navegacao-menu-item-sair:hover {
+    background-color: #d04c4d;
+}
+
+.nav-item:hover {
+    color: #FFF;
+}
+
+.conteudo-inicio {
+    margin-top: 90px;
+    padding-top: 1em;
+}
+
+/* Original Azul #013150 */
+/* Original verde #a6ce39 */
+
+/* Azul logo #4c5897 */
+/* Verde logo #30562c */
+
+/* Azul #448ccb */
+/* Verde #acd373 */
+
+.mensagem-inicio {
+    padding: .5em 0;
+}
+
+.card {
+    background: #FFF;
+    border: 1px solid #DFDFDF;
+    border-radius: .3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0;
+}
+
+.card-financeiro,
+.card-licencas,
+.card-clientes {
+    min-height: 200px;
+}
+
+.card-header {
+    padding: 1em 0 0 0;
+}
+
+.card-header > .fa {
+    /*color: #acd373;*/
+    color: #999;
+}
+
+.card-header-titulo {
+    margin: .3em 0;
+    color: #07f;
+}
+
+.card-header-subtitulo {
+    color: #333;
+}
+
+.card-header-img {
+    height: 64px;
+    width: 64px;
+}
+
+.card-conteudo {
+    padding: 0 1em;
+}
+p.card-conteudo-texto {
+    padding: .4em 2em;
+    text-align: justify;
+}
+
+.card-lista-item {
+    border: none;
+    padding: 10px 2px;
+    background-color: transparent;
+}
+
+.card-lista-item-badge {
+    background-color: #07f;
+}
+
+.card-footer {
+    background: #4c5897;
+    padding: .7em;
+    border-top: 1px solid #CCC;
+}
+
+a.card-footer-link {
+    color: #FFF;
+    display: block;
+}
+
+a.card-footer-link:hover {
+    text-decoration: none;
+    color: #acd373;
+}
+
+.painel {
+    background: #FFF;
+    border: 1px solid #DFDFDF;
+    border-top: 4px solid #07f;
+    border-radius: .3em;
+    padding: 1em 2em;
+}
+
+.painel-formulario {
+    margin: .5em 0;
+}
+
+.painel-titulo {
+    padding-bottom: .8em;
+}
+
+.painel-titulo-texto, 
+.painel-subtitulo-texto {
+    padding: 0 4px;
+}
+
+.painel-formulario-grupo {
+    padding-left: 0;
+}
+
+.painel-formulario-grupo > label {
+    font-weight: normal;
+    color: #888;
+    padding-left: 2px;
+}
+
+.painel-formulario-input {
+    border-radius: 0;
+    /*box-shadow: none;*/
+}
+
+.painel-formulario-input:focus {
+    border-color: #048ce4;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0, 96, 158,.4);
+}
+
+.painel-formulario-botao {
+    background-color: #4d5896;
+    border-color: #455192;
+}
+
+.painel-formulario-botao-simples {
+    background-color: #EEE;
+    border-color: #DDD;
+} 
+
+.modulos-licenca-item {
+    padding: 0 6px;
+}
+
+.card-modulo-licenca {
+    padding: .8em 0;
+    margin-top: 0;
+}
+
+.card-modulo-licenca .card-header-subtitulo {
+    padding: 0 .4em;
+    font-weight: bold;
+}
+
+.card-modulo-licenca .card-header-img {
+    width: 48px;
+    height: 48px;
+}
+
+.mensagem-header {
+    padding: .3em 1.5em;
+    margin: 0 -1em;
+    background: #4d5896;
+    color: #FFF;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+    margin: 0 -1em;
+    background: #4d5896;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    background: transparent;
+    color: #FFF;
+    border: none;
+    border-bottom: 5px solid #8faf4d;
+}
+
+.nav-tabs>li>a {
+    color: #FFF;
+    border-radius: 0;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background: #FFF;
+    color: #333;
+}
+
+.conteudo-com-header {
+    margin-top: 65px;
+}
+
+.sem-padding { padding: 0; }
+
+.filtros {
+    padding: 1em 0;
+}
+
+@media (min-width: 768px) {
+    .navbar-toggle {
+        display: block;
+        margin: 25px 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        height: 50px;
+    }
+    
+    .conteudo-inicio {
+        margin-top: 50px;
+    }
+    
+    .conteudo-com-header {
+        margin-top: 35px;
+    }
+}
